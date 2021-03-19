@@ -10,15 +10,7 @@
     height: 50vh;
     }
     
-    .cell {
-        
-        height: 100px;
-        width: 100px;
-        border:0;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+
 
     @keyframes slide {
         from {
