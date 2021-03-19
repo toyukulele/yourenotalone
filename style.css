@@ -29,7 +29,7 @@
         }
         }
         
-        .cell {
+        .cell:hover {
         animation-name: slide;
         animation-duration: 5s;
         animation-timing-function: linear;
