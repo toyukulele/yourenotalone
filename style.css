@@ -9,10 +9,18 @@
    
     }
     
-
-    .video-rotating {
-        animation: spin 5s linear 0s infinite forwards;
+    @keyframes spin {
+      from {
+        transform: rotate(0);
       }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .video-rotating {
+      animation: spin 5s linear 0s infinite forwards;
+    }
       
 
 
