@@ -10,7 +10,10 @@
     }
     
 
-
+    .video-rotating {
+        animation: spin 5s linear 0s infinite forwards;
+      }
+      
 
 
     .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -37,7 +40,4 @@
     .div22 { grid-area: 5 / 7 / 6 / 8; }
     .div23 { grid-area: 5 / 9 / 6 / 10; }
 
-    .video-rotating {
-        animation: spin 5s linear 0s infinite forwards;
-      }
-      
+   
