@@ -19,7 +19,7 @@
     }
     
     .video-rotating {
-      animation: spin 5s linear 0s infinite forwards;
+      animation: spin 1s linear 0s infinite forwards;
     }
       
 
